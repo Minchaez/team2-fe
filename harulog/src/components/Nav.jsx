@@ -93,7 +93,6 @@ const NavBar = () => {
                   key={category.id}
                   onClick={() => {
                     if (selectedCategoryId !== category.id) {
-                      window.scrollTo(0, 0);
                       setSelectedCategoryId(category.id);
                       // scrollToCategorySection();
                     } else {
